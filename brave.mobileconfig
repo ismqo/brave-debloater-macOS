@@ -11,7 +11,7 @@
   <key>PayloadUUID</key>
   <string>5B137C12-C8E6-47CB-BF35-77397706F4B1</string>
   <key>PayloadDisplayName</key>
-  <string>Brave Hardening</string>
+  <string>Brave Debloat</string>
   <key>PayloadDescription</key>
   <string>Managed Brave browser policies</string>
   <key>PayloadOrganization</key>
