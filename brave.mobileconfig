@@ -42,8 +42,8 @@
             <dict>
               <key>mcx_preference_settings</key>
               <dict>
-		<key>BraveAIChatEnabled</key>
-   		<false/>
+		        <key>BraveAIChatEnabled</key>
+   		        <false/>
                 <key>BraveRewardsDisabled</key>
                 <true/>
                 <key>BraveWalletDisabled</key>
