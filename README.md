@@ -74,3 +74,18 @@ killall "Brave Browser"
 ```
 open -a "Brave Browser"
 ```
+
+
+Install as a configuration profile (most reliable)
+
+macOS prefers .mobileconfig profiles for persistence.
+
+You can:
+
+Convert this plist into a .mobileconfig
+
+Install it via:
+
+System Settings → Privacy & Security → Profiles
+
+This is the enterprise-grade way and survives everything.
