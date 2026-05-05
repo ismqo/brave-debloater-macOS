@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.yourname.brave.policy</string>
+  <key>PayloadUUID</key>
+  <string>5B137C12-C8E6-47CB-BF35-77397706F4B1</string>
+  <key>PayloadDisplayName</key>
+  <string>Brave Hardening</string>
+  <key>PayloadDescription</key>
+  <string>Managed Brave browser policies</string>
+  <key>PayloadOrganization</key>
+  <string>Local</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.ManagedClient.preferences</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.yourname.brave.payload</string>
+      <key>PayloadUUID</key>
+      <string>3ED28A2F-BC77-4FCF-BEBA-637B51423D07</string>
+      <key>PayloadDisplayName</key>
+      <string>Brave Policies</string>
+
+      <key>PayloadContent</key>
+      <dict>
+        <key>com.brave.Browser</key>
+        <dict>
+          <key>Forced</key>
+          <array>
+            <dict>
+              <key>mcx_preference_settings</key>
+              <dict>
+		<key>BraveAIChatEnabled</key>
+   		<false/>
+                <key>BraveRewardsDisabled</key>
+                <true/>
+                <key>BraveWalletDisabled</key>
+                <true/>
+                <key>BraveVPNDisabled</key>
+                <true/>
+                <key>TorDisabled</key>
+                <true/>
+                <key>BraveNewsDisabled</key>
+                <true/>
+                <key>BraveTalkDisabled</key>
+                <true/>
+
+                <key>PasswordManagerEnabled</key>
+                <false/>
+                <key>AutofillAddressEnabled</key>
+                <false/>
+                <key>AutofillCreditCardEnabled</key>
+                <false/>
+                <key>TranslateEnabled</key>
+                <false/>
+
+                <key>DnsOverHttpsMode</key>
+                <string>secure</string>
+                <key>DnsOverHttpsTemplates</key>
+                <string>https://dns.adguard-dns.com/dns-query</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>
